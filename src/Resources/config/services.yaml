@@ -1,0 +1,4 @@
+# src/Resources/config/services.yaml
+services:
+    Root\CustomBundle\Service\MyService:
+        public: true

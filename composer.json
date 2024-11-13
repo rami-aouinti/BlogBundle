@@ -1,0 +1,25 @@
+{
+    "name": "blog/custom-bundle",
+    "description": "bundle example",
+    "require-dev": {
+        "phpunit/phpunit": "^11.4",
+        "symfony/var-dumper": "^7.1",
+        "phpstan/phpstan": "^2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Blog\\CustomBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rami Aouinti"
+        }
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.0-dev"
+        }
+    }
+}

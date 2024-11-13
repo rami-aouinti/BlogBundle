@@ -1,0 +1,4 @@
+# src/Resources/config/routing.yaml
+custom_bundle:
+    resource: '../../Controller/'
+    type: annotation
